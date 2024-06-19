@@ -93,14 +93,13 @@ function Sync-Folder {
     }
 }
 
+
+
 #create/update the log file and set its path with name
 $logFile = Join-Path -Path $logFilePath -ChildPath "syncLog.log"
 
 try {
-    #passing arguments from script to Sync-Folder function
-    Write-Host $SourceFolder
-    Write-Host $ReplicaFolder
-    Write-Host $LogFilePath
+    #passing arguments from script to Sync-Folder function, passing logFile that is the combination of all add-content operations of the log file
     Sync-Folder -SourceFolder $SourceFolder -ReplicaFolder $ReplicaFolder -LogFilePath $logFile
 } catch {
     Write-Host "Error: $_" 
