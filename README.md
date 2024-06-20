@@ -9,8 +9,8 @@ Set the execution policy:
 Set-ExecutionPolicy RemoteSigned
 
 ## Step-by-Step Guide
-1. Clone the repository
-2. Prepare the Parameters
+### 1. Clone the repository
+### 2. Prepare the Parameters
 Before running the script, make sure you have the following parameters ready:
 
 SourceFolder: The path of the folder you want to sync from.
