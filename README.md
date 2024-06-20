@@ -13,11 +13,11 @@ Set-ExecutionPolicy RemoteSigned
 ### 2. Prepare the Parameters
 Before running the script, make sure you have the following parameters ready:
 
-SourceFolder: The path of the folder you want to sync from.
+<ins> SourceFolder: </ins> The path of the folder you want to sync from.
 
-ReplicaFolder: The path of the folder you want to sync to.
+<ins> ReplicaFolder: </ins> The path of the folder you want to sync to.
 
-LogFilePath: The path where you want to save the log file.
+<ins> LogFilePath: </ins> The path where you want to save the log file.
 
 
 ### 3. (Optional) Demo Setup
