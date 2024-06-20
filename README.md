@@ -14,8 +14,11 @@ Set-ExecutionPolicy RemoteSigned
 Before running the script, make sure you have the following parameters ready:
 
 SourceFolder: The path of the folder you want to sync from.
+
 ReplicaFolder: The path of the folder you want to sync to.
+
 LogFilePath: The path where you want to save the log file.
+
 
 ### 3. (Optional) Demo Setup
 For demonstration purposes, you can use the provided demo and demoReplica folders for the source and replica folder. Ensure that, after cloning, you have a structure similar to this one:
