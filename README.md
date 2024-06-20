@@ -23,6 +23,7 @@ Before running the script, make sure you have the following parameters ready:
 ### 3. (Optional) Demo Setup
 For demonstration purposes, you can use the provided demo and demoReplica folders for the source and replica folder. Ensure that, after cloning, you have a structure similar to this one:
 
+
 C:\pathToDownloadedFolder\syncFolderPowershell\ (LogFilePath)
 
 │
@@ -46,5 +47,6 @@ C:\pathToDownloadedFolder\syncFolderPowershell\ (LogFilePath)
 │   ├── someFoldersbeingdeleted
 
 │       └── somefiles
+
 
 ### 4. Run the script with powershell and after provide SourceFolder, ReplicaFolder and LogFilePath where a syncLog.log will be created/updated.
