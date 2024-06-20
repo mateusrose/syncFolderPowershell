@@ -50,3 +50,9 @@ C:\pathToDownloadedFolder\syncFolderPowershell\ (LogFilePath)
 
 
 ### 4. Run the script with powershell and after provide SourceFolder, ReplicaFolder and LogFilePath where a syncLog.log will be created/updated.
+
+## Logging
+All operations are logged to the specified log file. The log entries include timestamps and details of created, copied, or removed files and directories.
+
+## Conclusion
+This script is a simple and effective way to keep a backup of a folder synchronized. By following the steps outlined above, you can easily set up and run the script to maintain a synchronized replica of your source folder.
