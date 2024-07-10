@@ -30,23 +30,23 @@ C:\pathToDownloadedFolder\syncFolderPowershell\ (LogFilePath)
 
 ├── SyncFolders.ps1
 
-├── demo\ (SourceFolder)
+├── Demo\ (SourceFolder)
 
 │   ├── somefiles
 
-│   ├── someFolders
+│   ├── someFolder
 
 │       └── somefiles
 
 │
 
-└── demoReplica (ReplicaFolder)
+└── DemoReplica (ReplicaFolder)
 
 │   ├── somefilesbeingdelete
 
-│   ├── someFoldersbeingdeleted
+│   ├── someFolderbeingdeleted
 
-│       └── somefiles
+│       └── somefile
 
 
 ### 4. Run the script with powershell and after provide SourceFolder, ReplicaFolder and LogFilePath where a syncLog.log will be created/updated.
